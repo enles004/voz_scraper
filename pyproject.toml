@@ -1,0 +1,14 @@
+[project]
+name = "voz-scraper"
+version = "0.1.0"
+description = "Thu thập các bài viết mới trên forum voz.vn, bỏ bài ghim, xuất ra zip chứa JSON."
+requires-python = ">=3.10"
+dependencies = [
+    "requests>=2.31",
+    "beautifulsoup4>=4.12",
+    "cloudscraper>=1.2.71",
+    "lxml>=5.0",
+]
+
+[tool.uv]
+package = false
